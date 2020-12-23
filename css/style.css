@@ -579,11 +579,12 @@ padding: 0 0 60px 0;
 .logo {
 position: fixed;
 display: block;
-width: 59px;
-height: 35px;
-top: 40px;
-left: 40px;
-background: url(../img/logo-dark.png) no-repeat;
+width: 130px;
+height: 95px;
+top: 10px;
+left: 20px;
+background: url(../img/logo.png) no-repeat;
+background-size: contain;
 -webkit-transition: all 1.5s ease;
    -moz-transition: all 1.5s ease;
 	-ms-transition: all 1.5s ease;
@@ -602,7 +603,8 @@ z-index: 500;
 @media only screen and (max-width: 640px) {
   .logo {
     position: absolute;
-	background: url(../img/logo-light.png) no-repeat;
+	background: url(../img/logo-white.png) no-repeat;
+    background-size: contain;
   }
 }
 
@@ -624,13 +626,14 @@ z-index: 500;
 }
 
 .logo.logo-position-primary {
-top: 40px;
-left: 40px;
+/*top: 40px;*/
+/*left: 40px;*/
 }
 
 .logo.logo-position-secondary {
-top: 20px;
-left: 20px;
+top: 0px;
+left: 10px;
+width: 100px;
 }
 
 
