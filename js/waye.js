@@ -251,6 +251,22 @@ $(function() {
     $("#menu-mobile-btn, .menu-nav li a, .menu").on("click", function() {
         $(".contact-modal").removeClass("open").addClass("close");
     });
+
+
+
+    // Other Modals
+    $(".profile-1-modal-launcher, .profile-1-modal-closer").on("click", function() {
+        if ($(".profile-1-modal").hasClass("open")) {
+            $(".profile-1-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-1-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+    $("#menu-mobile-btn, .menu-nav li a, .menu").on("click", function() {
+        $(".profile-1-modal").removeClass("open").addClass("close");
+    });
 	
 	// 11. YouTube player
     $("#background-video").YTPlayer({
