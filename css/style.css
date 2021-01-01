@@ -75,25 +75,25 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. single IMG BACKGROUND */
 .bg-img-SINGLE {
-background-image: url(../img/background/SINGLE-bg.jpg);
+background-image: url(../img/background-main/maema.jpg);
 }
 
 
 /* 1.2. slick fullscreen slideshow IMG BACKGROUND */
 .bg-img-1 {
-background-image: url(../img/background/hero-bg-1.jpg);
+background-image: url(../img/background-main/maema.jpg);
 }
 
 .bg-img-2 {
-background-image: url(../img/background/hero-bg-2.jpg);
+background-image: url(../img/background-main/church.jpg);
 }
 
 .bg-img-3 {
-background-image: url(../img/background/hero-bg-3.jpg);
+background-image: url(../img/background-main/NWH1.jpg);
 }
 
 .bg-img-4 {
-background-image: url(../img/background/hero-bg-4.jpg);
+background-image: url(../img/background-main/NWH2.jpg);
 }
 
 
@@ -584,7 +584,7 @@ width: 130px;
 height: 95px;
 top: 10px;
 left: 20px;
-background: url(../img/logo.png) no-repeat;
+background: url(../img/logos/logo.png) no-repeat;
 background-size: contain;
 -webkit-transition: all 1.5s ease;
    -moz-transition: all 1.5s ease;
@@ -604,7 +604,7 @@ z-index: 500;
 @media only screen and (max-width: 640px) {
   .logo {
     position: absolute;
-	background: url(../img/logo-white.png) no-repeat;
+	background: url(../img/logos/logo-white.png) no-repeat;
     background-size: contain;
   }
 }
