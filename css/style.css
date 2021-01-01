@@ -300,7 +300,7 @@ padding: 0;
 }
 
 .sections {
-padding: 85px 60px;
+padding: 85px 0px;
 }
 
 @media all and (min-width: 1920px) {
@@ -3067,7 +3067,7 @@ margin-top: -27px;
 .contact-info-description {
 color: #fff;
 text-align: center;
-text-transform: uppercase;
+/*text-transform: uppercase;*/
 }
 
 @media only screen and (max-width: 880px) {
@@ -3078,7 +3078,7 @@ text-transform: uppercase;
 
 .contact-info-description-img {
 display: block;
-font-size: 30px;
+font-size: 60px;
 text-align: center;
 color: #db0018;
 margin: 15px 0 15px 0;
@@ -3104,7 +3104,7 @@ font-size: 60px;
 }
 
 .contact-info-text {
-font-size: 10px;
+font-size: 20px;
 letter-spacing: 0.05em;
 }
 
