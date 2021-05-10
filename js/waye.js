@@ -264,8 +264,97 @@ $(function() {
             $("#menu-mobile-caller").removeClass("lines-close");
         }
     });
+
+    $(".profile-2-modal-launcher, .profile-2-modal-closer").on("click", function() {
+        if ($(".profile-2-modal").hasClass("open")) {
+            $(".profile-2-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-2-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-3-modal-launcher, .profile-3-modal-closer").on("click", function() {
+        if ($(".profile-3-modal").hasClass("open")) {
+            $(".profile-3-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-3-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-4-modal-launcher, .profile-4-modal-closer").on("click", function() {
+        if ($(".profile-4-modal").hasClass("open")) {
+            $(".profile-4-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-4-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-5-modal-launcher, .profile-5-modal-closer").on("click", function() {
+        if ($(".profile-5-modal").hasClass("open")) {
+            $(".profile-5-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-5-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-6-modal-launcher, .profile-6-modal-closer").on("click", function() {
+        if ($(".profile-6-modal").hasClass("open")) {
+            $(".profile-6-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-6-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-7-modal-launcher, .profile-7-modal-closer").on("click", function() {
+        if ($(".profile-7-modal").hasClass("open")) {
+            $(".profile-7-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-7-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-8-modal-launcher, .profile-8-modal-closer").on("click", function() {
+        if ($(".profile-8-modal").hasClass("open")) {
+            $(".profile-8-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-8-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
+    $(".profile-9-modal-launcher, .profile-9-modal-closer").on("click", function() {
+        if ($(".profile-9-modal").hasClass("open")) {
+            $(".profile-9-modal").removeClass("open").addClass("close");
+        } else {
+            $(".profile-9-modal").removeClass("close").addClass("open");
+            $("#menu-mobile").removeClass("activated");
+            $("#menu-mobile-caller").removeClass("lines-close");
+        }
+    });
+
     $("#menu-mobile-btn, .menu-nav li a, .menu").on("click", function() {
         $(".profile-1-modal").removeClass("open").addClass("close");
+        $(".profile-2-modal").removeClass("open").addClass("close");
+        $(".profile-3-modal").removeClass("open").addClass("close");
+        $(".profile-4-modal").removeClass("open").addClass("close");
+        $(".profile-5-modal").removeClass("open").addClass("close");
+        $(".profile-6-modal").removeClass("open").addClass("close");
+        $(".profile-7-modal").removeClass("open").addClass("close");
+        $(".profile-8-modal").removeClass("open").addClass("close");
+        $(".profile-9-modal").removeClass("open").addClass("close");
     });
 	
 	// 11. YouTube player
